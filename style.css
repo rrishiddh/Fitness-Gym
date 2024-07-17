@@ -1,0 +1,160 @@
+/* Comment:- 
+1. cant find the font used in banner section- named "Miama" - in google font, instead using "Alex Brush";
+2.
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Sacramento&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+    box-sizing: border-box;
+
+}
+
+.nav-banner{
+    background: linear-gradient(to bottom, 
+              rgba(0, 0, 0, 0.95) 0%, 
+              rgba(0, 0, 0, 0.47) 25%, 
+              rgba(0, 0, 0, 0.35) 50%, 
+              rgba(0, 0, 0, 0.67) 75%, 
+              rgba(0, 0, 0, 0.95) 100%);
+    background-color: rgba(0, 0, 0, 0.777);
+}
+
+.btn-1{
+    border-radius: 2.9rem;
+    background: #ed563f;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;   
+    padding: 0.6rem 1.5rem;
+    border: none;
+}
+.btn-transparent{
+    border: 1px solid white;
+    border-radius: 2.9rem;
+    background: none;
+    margin-left: 0.6rem;    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 85.4%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    align-items: center;
+}
+.navbar-left-h1{
+    color: rgb(230, 83, 60);
+    font-style: italic;
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+.navbar-right{
+    border: 1px solid rgba(255, 255, 255, 0.218);
+    border-radius: 2.5rem;
+    padding: .5rem 1.4rem .5rem .5rem;    
+}
+
+.navbar-right > li{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 400;    
+}
+.banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 85.4%;
+    gap: 4rem;
+
+}
+.banner-left{
+    place-content: center;
+}
+
+.span-italic{
+    font-family: "Sacramento", cursive;
+}
+
+.banner-left-h1{
+    color: white;
+    font-family: Inter;
+    font-size: 5rem;
+    font-weight: 900;
+}
+.banner-left-p{
+    color: #ffffff92;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 2rem 0rem;
+}
+.banner-right{
+    display: flex;
+    align-items: end;  
+}
+.banner-right > img{
+    width: 80%;
+    height: 100%;
+    margin-left: 20%;
+}
+.btn-vdo1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    backdrop-filter: blur(4px);
+    background-color: rgba(48, 48, 48, 0.54) ;
+    padding: 1.7rem 1.7rem;
+    margin-bottom: 7%;
+    left: 52%;
+    position: absolute;
+    border-radius: .7rem;
+    gap: 1.2rem;  
+    border: none; 
+}
+.ball{
+    background: #e8523c;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+.btn-vdo1-txt1{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.btn-vdo1-txt2{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.btn-vdo2{
+    align-items: center;
+    justify-content: space-between;
+    backdrop-filter: blur(4px);
+    background-color: rgba(48, 48, 48, 0.54) ;
+    padding: 1.2rem 1.7rem;
+    margin-bottom: 32%;
+    right: 4%;
+    position: absolute;
+    border-radius: .7rem;
+    border: none;
+}
+.btn-vdo2-txt1{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 900;
+}    
+.btn-vdo2-txt2{
+    color: #ffffffa6;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
