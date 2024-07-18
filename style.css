@@ -252,7 +252,7 @@ body{
     margin-bottom: 6rem;
 }
 .trainings-exercises-txt{
-    width: 60%;
+    width: 68%;
 }
 .trainings-exercises-img-div1{
     display: grid;
@@ -399,7 +399,8 @@ body{
 .meet-team-div2-bg{
     border-radius: 1rem;
     background: rgba(255, 255, 255, 0.1);
-    padding: 1rem;   
+    padding: 1rem 1rem 0rem 1rem;
+
 }
 .meet-team-div2-row{
     display: grid;
@@ -431,7 +432,7 @@ body{
 
 /* footer section */
 
-.footer{
+#footer{
     background: #ffffff22;
     margin: 0rem auto;  
 }
@@ -459,20 +460,20 @@ body{
     font-size: 1rem;
     font-weight: 400;
 }
-.footer-div-first-middel-h2{
+.footer-div-first-middle-h2{
     color: white;
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 2rem;
 }
-.footer-div-first-middel-list{
+.footer-div-first-middle-list{
     display: flex;
     flex-direction: column;
     color: #ffffff88;
     font-size: 1rem;
     font-weight: 400;
 }
-.footer-div-first-middel-list > ul{
+.footer-div-first-middle-list > ul{
     text-decoration: none;
     margin-bottom: 1.2rem;
 }
