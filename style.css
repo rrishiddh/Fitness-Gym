@@ -1,6 +1,5 @@
 /* Comment:- 
-1. cant find the font used in banner section- named "Miama" - in google font, instead using "Alex Brush";
-2.
+
  */
 
  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Sacramento&display=swap');
@@ -202,6 +201,7 @@ body{
 }
 .change-habits-div2-card{
     text-align: center;
+
 }
 .change-habits-div2-card > img{
     border-radius: 50%;
@@ -213,9 +213,10 @@ body{
     margin: 2rem 0rem .7rem 0rem;
 }
 .change-habits-div2-card-p{
-    color: #ffffff82;
+    color: #ffffffa5;
     font-size: 14px;
     font-weight: 400;
+    
 }
 
 /* run extra mile section  */
@@ -491,10 +492,8 @@ body{
 
 /* stay-connected section */
 .stay-connected{
-    margin: 2rem auto; 
-    padding: 2rem 0rem; 
-    margin-bottom: 6rem;
-    background: rgb(34, 34, 34);    
+    padding: 4rem 0rem; 
+    background: rgba(34, 34, 34, 0.437);    
 }
 .stay-connected-h1{
     color: white;
@@ -513,9 +512,11 @@ body{
     padding: 2.5rem;
 }
 .stay-connected-left > iframe{
-    height: 300px ;
-    width: 450px;
+    height: 22rem ;
+    width: 29rem;
     border: none;
+    border-radius: .5rem;
+    margin-top: 1rem;
 }
 .stay-connected-right{    
     text-align: center;
@@ -524,4 +525,39 @@ body{
     height: 60%;
     width: 60%;
     margin-bottom: 1.5rem;
+}
+
+/* Success story section */
+
+.success-story-div1{
+    width: 60%;
+    text-align: right;
+    margin-left: auto;
+}
+.success-story-div2{
+    grid-template-columns: repeat(3, 1fr);
+}
+.card-bg{
+    background: rgba(34, 34, 34, 0.616);    
+}
+.success-story-div2-1{
+    width: 80%;
+    margin: 2rem auto;
+    /* margin-top: 0.5rem; */
+}
+.success-story-div2-2 > img {
+    border-radius: 50%;
+    width: 20%;
+    height: 20%;
+}
+.blockquote::before{
+    font-family: 'Franklin Gothic Medium';
+    content: '\201c';
+    color: rgba(255, 255, 255, 0.666);
+    font-size: 3rem;
+
+}
+.blockquote > p{
+    color: rgba(255, 255, 255, 0.839);
+
 }
