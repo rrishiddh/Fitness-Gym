@@ -82,6 +82,9 @@ body{
     font-size: 1.1rem;
     font-weight: 400;    
 }
+.nav-burger{
+    display: none;
+}
 .banner{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -214,7 +217,7 @@ body{
 }
 .change-habits-div2-card-p{
     color: #ffffffa5;
-    font-size: 14px;
+    font-size: 0.9rem;
     font-weight: 400;
     
 }
@@ -560,4 +563,158 @@ body{
 .blockquote > p{
     color: rgba(255, 255, 255, 0.839);
 
+}
+
+/* media screen for small device  */
+@media only screen and (max-width: 576px) {
+    .navbar-right{
+        border: none;
+    }
+    .navbar-right > li {
+        display: none;
+    }    
+    .nav-burger{
+        display: block;
+        font-size: 1.5rem;
+        color: rgba(255, 255, 255, 0.825);
+    }
+    .banner{
+        grid-template-columns: 1fr;
+    }
+    .banner-left-h1{
+        font-size: 3rem;
+        width: 70%;
+
+    }
+    .banner-left-p{        
+        width: 95%;
+    }
+    .btn-1{     
+        font-size: 1rem;
+        padding: 0.8rem 1.8rem;
+    }
+    .btn-transparent{
+        margin-left: 0.6rem;    
+    }
+    .btn-vdo1{
+        text-align: left;
+        padding: 1.3rem 1.3rem;
+        left: 12%;
+        margin-bottom: 30%;
+        gap: 1rem;  
+    }
+    .banner-right > img{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .btn-vdo2{
+        text-align: left;
+        padding: 1rem 1.3rem;
+        right:10%;
+        margin-bottom: 90%;        
+    }
+    .change-habits-div1{
+        width: 96%;
+        text-align: center;
+    
+    }
+    .change-habits-div1-h1{
+        font-size: 2.2rem;
+        font-weight: 900;
+    }
+    .change-habits-div2{
+        grid-template-columns:  1fr;
+        gap: 3rem;
+    }
+    .change-habits-div2-card-h3{
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+    }
+    .change-habits-div2-card-p{
+        font-size: 1rem; 
+        margin-bottom: 1rem;      
+    }
+    .run-extra-mile{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        place-items: center;
+    }
+    .btn-full{
+        width: 100%;
+        padding: 1.3rem 0rem;
+        font-size: 1.5rem;
+    }
+
+    .run-extra-mile-right-img{
+        margin-bottom: 2rem;  
+    }
+    .run-extra-mile-right-img > img{
+        height: 90%;
+    }
+    .trainings-exercises-img-div1{
+        grid-template-columns: 0.6fr 0.9fr;    
+    }
+    .img-hidden{
+        display: none;
+    }
+    .trainings-exercises-img-div2{
+        grid-template-columns: 0.9fr 0.6fr;    
+    }
+    .trainings-exercises-txt{
+        width: 90%;
+    }
+    .bmi-left{
+        text-align: left;
+    }
+    .bmi-calculator-chart-inner{
+        grid-template-columns: 1fr;
+        gap: 0rem;
+    }
+    .bmi-calculator-chart-left{
+        width: 100%;
+        padding-top: 2rem;
+        
+    }
+    .bmi-calculator-chart-right{
+        width: 100%;
+        padding: 0;
+        padding-bottom: 2rem;
+    }
+    .success-story-div1{
+        width: 100%;
+    }    
+    .meet-team-div1{
+        width: 90%;
+    }   
+     
+    .meet-team-div2-row{
+        grid-template-columns: 1fr;
+    }  
+    
+    .stay-connected-inner{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: .1rem;
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    .stay-connected-h1{
+        font-size: 2.3rem;
+    }
+    .stay-connected-left > h4 {
+        font-size: 1.6rem;
+    }
+    .stay-connected-left > iframe{
+        height: 18rem ;
+        width: 22rem;
+        padding-bottom: 2rem;
+    }
+    .footer-div-first{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        place-items: start;
+
+    }
+    
 }
