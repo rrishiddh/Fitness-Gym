@@ -785,3 +785,16 @@ body{
         gap: 5rem;
     }
 }
+/* media screen for large device  */
+@media only screen and (min-width: 992px){
+    .btn-1{     
+        font-size: 1rem;
+        padding: 0.8rem 1.5rem;
+    }
+    .btn-transparent{
+        margin-left: 1.4rem;    
+    }
+    .banner-left{
+        width: 110%;
+    }
+}
