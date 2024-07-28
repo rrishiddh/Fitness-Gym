@@ -546,6 +546,9 @@ body{
     .banner{
         grid-template-columns: 1fr;
     }
+    .banner-left{
+        width: 100%;
+    }
     .banner-left-h1{
         font-size: 2.7rem;
         width: 80%;
@@ -555,16 +558,16 @@ body{
     }
     .btn-1{     
         font-size: 1rem;
-        padding: 0.8rem 1.8rem;
+        padding: 0.8rem 1.2rem;
     }
     .btn-transparent{
-        margin-left: 0.2rem;    
+        margin-left: 0.4rem;    
     }
     .btn-vdo1{
         text-align: left;
         padding: 1.3rem 1.3rem;
         left: 12%;
-        margin-bottom: 30%;
+        margin-bottom: 20%;
         gap: 1rem;  
     }
     .banner-right > img{
@@ -575,7 +578,7 @@ body{
         text-align: left;
         padding: 1rem 1.3rem;
         right:10%;
-        margin-bottom: 90%;        
+        margin-bottom: 76%;        
     }
     .change-habits-div1{
         width: 96%;
@@ -609,9 +612,11 @@ body{
     }
     .run-extra-mile-right-img{
         margin-bottom: 2rem;  
+        text-align: center;
     }
     .run-extra-mile-right-img > img{
-        height: 90%;
+        height: 70%;
+        width: 85%;
     }
     .trainings-exercises-img-div1{
         grid-template-columns: 0.6fr 0.9fr;    
@@ -643,7 +648,11 @@ body{
     }
     .success-story-div1{
         width: 100%;
-    }    
+    } 
+    .success-story-div1 > h1{
+        font-size: 2rem;
+        font-weight: 900;
+    }   
     .meet-team-div1{
         width: 90%;
     }        
@@ -665,7 +674,7 @@ body{
     }
     .stay-connected-left > iframe{
         height: 18rem ;
-        width: 22rem;
+        width: 19rem;
         padding-bottom: 2rem;
     }
     .footer-div-first{
@@ -737,11 +746,11 @@ body{
         height: 300px;
         width: 250px;        
     }
-   .trainings-exercises-txt{
-    width: 95%;
+    .trainings-exercises-txt{
+      width: 95%;
    }
-   .bmi-left{
-    text-align: left;
+    .bmi-left{
+      text-align: left;
     }
     .bmi-calculator-chart-inner{
         grid-template-columns: 1fr;
