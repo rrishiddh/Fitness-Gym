@@ -28,6 +28,9 @@ body{
     padding: 0.8rem 2.5rem;
     border: none;
 }
+.bold{
+    font-weight: 900;   
+}
 .btn-transparent{
     border: 1px solid white;
     border-radius: 2.9rem;
@@ -245,21 +248,28 @@ body{
 }
 .trainings-exercises-img-div1-img1{
     position: relative;
+    background: linear-gradient(hsl(169, 100%, 51%), hsl(169, 100%, 51%));
+
 }
 .trainings-exercises-img-div1-img2{
     position: relative;
+    background: linear-gradient(hsla(0, 100%, 50%, 0.7), hsla(0, 100%, 50%, 0.7));
 }
 .trainings-exercises-img-div1-img3{
     position: relative;
+    background: linear-gradient(hsla(0, 0%, 0%, 0.7), hsla(0, 0%, 0%, 0.7));
 }
 .trainings-exercises-img-div1-img4{
     position: relative;
+    background: linear-gradient(hsla(0, 0%, 0%, 0.7), hsla(0, 0%, 0%, 0.7));
 }
 .trainings-exercises-img-div1-img5{
     position: relative;
+    background: linear-gradient(hsla(104, 100%, 50%, 0.7), hsla(104, 100%, 50%, 0.7));
 }
 .trainings-exercises-img-div1-img6{
     position: relative;
+    background: linear-gradient(hsla(223, 100%, 50%, 0.7), hsla(223, 100%, 50%, 0.7));
 }
 .trainings-exercises-img-div1-inner-txt1{
     position: absolute;
@@ -619,8 +629,8 @@ body{
         width: 85%;
     }
     .trainings-exercises-img-div1{
-        grid-template-columns: 0.6fr 0.9fr;    
-    }
+        grid-template-columns: 0.6fr 0.9fr;  
+    } 
     .img-hidden{
         display: none;
     }
@@ -667,7 +677,7 @@ body{
         padding-top: 1rem;
     }
     .stay-connected-h1{
-        font-size: 2.3rem;
+        font-size: 2rem;
     }
     .stay-connected-left > h4 {
         font-size: 1.6rem;
@@ -805,5 +815,9 @@ body{
     }
     .banner-left{
         width: 110%;
+    }
+    .run-extra-mile-right-img > img{
+        object-fit: none;
+        object-position: 65% 28%;
     }
 }
