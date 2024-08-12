@@ -567,11 +567,12 @@ body{
         width: 95%;
     }
     .btn-1{     
-        font-size: 1rem;
+        font-size: .9rem;
         padding: 0.8rem 1.2rem;
     }
     .btn-transparent{
-        margin-left: 0.4rem;    
+        font-size: 0.9rem;
+        margin-left: 0.2rem;    
     }
     .btn-vdo1{
         text-align: left;
@@ -617,8 +618,8 @@ body{
     }
     .btn-full{
         width: 100%;
-        padding: 1.3rem 0rem;
-        font-size: 1.5rem;
+        padding: 1rem 0rem;
+        font-size: 1rem;
     }
     .run-extra-mile-right-img{
         margin-bottom: 2rem;  
@@ -677,6 +678,7 @@ body{
         padding-top: 1rem;
     }
     .stay-connected-h1{
+        padding-left: .5rem;
         font-size: 2rem;
     }
     .stay-connected-left > h4 {
@@ -686,6 +688,10 @@ body{
         height: 18rem ;
         width: 19rem;
         padding-bottom: 2rem;
+    }
+    .stay-connected-right > a > img {
+        height: 80%;
+        width: 100%;
     }
     .footer-div-first{
         grid-template-columns: 1fr;
